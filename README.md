@@ -57,3 +57,8 @@ It is meant to provide a platform where information about hotels in 
 
 
 ## CREDITS
+
+
+### NOTE: 
+This is the second repository created. The branch of the original was not allowing me to maintain version control.
+The original repository is: https://github.com/andershup/Visit-South-East-Asia-Milestone-project-two 
