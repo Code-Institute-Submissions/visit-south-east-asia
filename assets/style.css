@@ -55,28 +55,10 @@ opacity: 0.8;
 width:100%;
 }
 
-.form-container {
-      height: 20vh;
-      opacity: 0.7;
- 
-}
-
-footer {
-      height: 5vh;
-      background-color: gray;
-      position: absolute;
-      bottom:0;
-      width: 100%;
- 
-
-}
 
 
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-    
-      /* Optional: Makes the sample page fill the window. */
-    
+
+    /*Code adapted from google maps:  */
     
       table {
         font-size: 12px;
@@ -158,3 +140,21 @@ footer {
         text-align: right;
       }
     
+/* end of code adapted from gogle maps */
+
+footer {
+      height: 5vh;
+      background-color: gray;
+      position: absolute;
+      bottom:0;
+      width: 100%;
+ 
+
+}
+
+.form-container {
+      height: 20vh;
+      opacity: 0.7;
+ 
+}
+
