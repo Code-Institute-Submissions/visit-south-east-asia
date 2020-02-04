@@ -11,7 +11,7 @@
       var map, places, infoWindow;
       var markers = [];
       var autocomplete;
-      var countryRestrict = {'country': ['us', 'kh', 'id', 'la', 'my' ,'mm', 'ph','sg','th','vn']};
+      var countryRestrict = {'country': ['us', 'kh', 'id', 'la', 'my' ,'mm', 'ph','sg','th','vn',]};
       var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
       var hostnameRegexp = new RegExp('^https?://.+?/');
 
@@ -98,7 +98,7 @@
         var place = autocomplete.getPlace();
         if (place.geometry) {
           map.panTo(place.geometry.location);
-          map.setZoom(10);
+          map.setZoom(8);
           search();
         } else {
           document.getElementById('autocomplete').placeholder = 'Enter a city';

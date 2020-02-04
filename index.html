@@ -74,7 +74,7 @@
 
 </div>
 <div id="map" class="col-12 col-sm-5"></div>
-<div class="col-12 col-sm-5">
+<div class="col-12 col-sm-5 listing-block">
 
 <div id="listing" class="d-block">
       <table id="resultsTable">
@@ -111,10 +111,13 @@
 
 </div>
 <div class="col-sm1"></div>
-<div class="col-12 reset-button">
-  <button  class="btn btn-secondary" onclick="clearMarkers() ; clearResults() ;">Reset Map</button>
+
+</div>
 </div>
 
+<div class="row">
+<div class="col-12 reset-button text-center">
+<button  class="btn btn-secondary btn-sm" onclick="initMap()">Reset Map</button> 
 </div>
 </div>
 
@@ -130,9 +133,9 @@
 	<div id="form-box" class="center-form col-8">
 				<form onsubmit="return sendMail(this);">
 					<input type="text" name="name" class="form-control form-control-sm" id="fullname" placeholder="Name" required/>
-					<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-					<textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-					<button type="submit" class="btn btn-secondary center-block">Submit Request</button>
+					<input type="text" name="emailaddress" class="form-control form-control-sm" id="emailaddress" placeholder="Email" required/>
+					<textarea rows="3" name="projectsummary" class="form-control form-control-sm" id="projectsummary" placeholder="How can we help?" required></textarea>
+					<button type="submit" class="btn btn-secondary btn-sm center-block">Submit Request</button>
 				</form>
 			</div>
             <div class="col-2">
@@ -150,15 +153,15 @@
 
 
 
-   
+     <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+    </script>
 
    
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB1bMzOmLDngtBkiRKBYXpQSTVHIcXLLM&libraries=places&callback=initMap"
-        async defer></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB1bMzOmLDngtBkiRKBYXpQSTVHIcXLLM&libraries=places&callback=initMap"></script>
 
 <!--footer-->
 <footer>
-
+<p>&copy;Anders Olesen</p>
 </footer>
 
 <script src="assets/js/sendEmail.js"></script>

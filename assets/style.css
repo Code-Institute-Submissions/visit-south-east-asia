@@ -2,6 +2,7 @@
 
 body,html {
     height: 100%;
+   
     margin: 0;
     padding:0 !important;
 
@@ -50,6 +51,9 @@ body,html {
 min-height: 30vh;
 opacity: 0.8;
 width:100%;
+padding: 0;
+cursor: pointer;
+
 }
 
 
@@ -78,19 +82,24 @@ width:100%;
         z-index: 1;
       }
      
+     .listing-block {
+         background-color: white;
+         opacity: 0.5;
+     }
       
        #listing {
        
         width: 100%;
         height: auto;
         overflow: auto;
-        
+      
         top: 0px;
         cursor: pointer;
         overflow-x: hidden;
       }
       #findhotels {
         font-size: 14px;
+        padding-right: 15px;
       }
       #locationField {
         -webkit-box-flex: 1 1 190px;
@@ -102,6 +111,7 @@ width:100%;
         -webkit-box-flex: 1 1 140px;
         -ms-flex: 1 1 140px;
         flex: 1 1 140px;
+        padding-right: 15px;
       }
       #autocomplete {
         width: 100%;
@@ -139,10 +149,14 @@ width:100%;
     
 /* end of code adapted from gogle maps */
 
+.form-container {
+    
+      opacity: 0.7;
+ 
+}
 
-
-.reset-button {
-    height: 30px;
+.contact-us-text {
+    color: whitesmoke;
 }
 
 
@@ -157,7 +171,7 @@ footer {
 }
 
 .form-container {
-      height: 20vh;
+    
       opacity: 0.7;
  
 }
