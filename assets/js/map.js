@@ -62,10 +62,10 @@
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: {lat: 11.621900, lng: 107.071500},
-          mapTypeControl: false,
-          panControl: false,
-          zoomControl: false,
-          streetViewControl: false
+          mapTypeControl: true,
+          panControl: true,
+          zoomControl: true,
+          streetViewControl: true
         });
 
       
@@ -98,8 +98,8 @@
       function onPlaceChanged() {
         var place = autocomplete.getPlace();
         if (place.geometry) {
-          map.panTo(place.geometry.location);
-          map.setZoom(10);
+         map.panTo(place.geometry.location);
+         map.setZoom(10);
           search();
         } else {
           document.getElementById('autocomplete').placeholder = 'Enter a city';
@@ -267,3 +267,4 @@
         }
       }
     
+     
