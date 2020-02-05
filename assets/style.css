@@ -8,6 +8,22 @@ body,html {
 
 }
 
+
+
+
+@media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+
+
 .body-container {
     height: 100vh;
     background: url("images/beach-1236581_1920.jpg") no-repeat center center fixed;
@@ -20,13 +36,15 @@ body,html {
 
 
 
-.row, .container-fluid {
+.row,  .container-fluid {
     overflow-x: hidden;
     padding:0;
 }
 
 
-
+p {
+    margin:0;
+}
 
 
 
@@ -71,7 +89,7 @@ cursor: pointer;
         -ms-flex-align: center;
         align-items: center;
         background: #fff;
-        opacity: 0.7;
+        
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -156,12 +174,14 @@ cursor: pointer;
 }
 
 .contact-us-text {
-    color: whitesmoke;
+    color: white;
 }
 
 
 footer {
-      height: 5vh;
+      
+
+
       background-color: gray;
       position: absolute;
       bottom:0;
@@ -169,12 +189,18 @@ footer {
  
 
 }
-
-
-
-.form-container {
-    
-      opacity: 0.7;
+.social-media {
+  display: inline-block;
+  text-align: center; 
  
+  
 }
+.created-by {
+    padding-left: 15px;
+margin:0;
+float: left; 
+
+}
+
+
 
