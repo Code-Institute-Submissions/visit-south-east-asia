@@ -43,6 +43,21 @@ It is meant to provide a platform where information about hotels in 
 
 ## TESTING
 
+Issue with the follwing function: 
+function onPlaceChanged() {
+        var place = autocomplete.getPlace();
+        if (place.geometry) {
+          map.panTo(place.geometry.location);
+          map.setZoom(8);
+          search();
+        } else {
+          document.getElementById('autocomplete').placeholder = 'Enter a city';
+        }
+      }
+The map is not panning to the place.geometry.location.
+
+ 
+
 ## TECHNOLOGIES USED
 
 * HTML

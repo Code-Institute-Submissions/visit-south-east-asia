@@ -11,7 +11,7 @@
       var map, places, infoWindow;
       var markers = [];
       var autocomplete;
-      var countryRestrict = {'country': ['us', 'kh', 'id', 'la', 'my' ,'mm', 'ph','sg','th','vn',]};
+      var countryRestrict = {'country': ['kh', 'id', 'la', 'my' ,'mm', 'ph','sg','th','vn',]};
       var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
       var hostnameRegexp = new RegExp('^https?://.+?/');
 
@@ -52,28 +52,29 @@
           center: {lat: 17.872043, lng: 105.985417},
           zoom: 4
         },
-     
        
-        'us': {
-          center: {lat: 14.195040, lng: 103.164774},
-          zoom: 3
-        },
+       
+       
         
       };
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          zoom: countries['us'].zoom,
-          center: countries['us'].center,
+          zoom: 4,
+          center: {lat: 11.621900, lng: 107.071500},
           mapTypeControl: false,
           panControl: false,
           zoomControl: false,
           streetViewControl: false
         });
 
+      
+    
         infoWindow = new google.maps.InfoWindow({
           content: document.getElementById('info-content')
         });
+
+     
 
         // Create the autocomplete object and associate it with the UI input control.
         // Restrict the search to the default country, and to place type "cities".
@@ -98,7 +99,7 @@
         var place = autocomplete.getPlace();
         if (place.geometry) {
           map.panTo(place.geometry.location);
-          map.setZoom(8);
+          map.setZoom(10);
           search();
         } else {
           document.getElementById('autocomplete').placeholder = 'Enter a city';
@@ -153,8 +154,8 @@
         var country = document.getElementById('country').value;
         if (country == 'all') {
           autocomplete.setComponentRestrictions({'country': []});
-          map.setCenter({lat: 15, lng: 0});
-          map.setZoom(2);
+          map.setCenter({lat: 11.621900, lng: 107.071500});
+          map.setZoom(4);
         } else {
           autocomplete.setComponentRestrictions({'country': country});
           map.setCenter(countries[country].center);
