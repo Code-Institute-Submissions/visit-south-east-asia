@@ -98,8 +98,8 @@
       function onPlaceChanged() {
         var place = autocomplete.getPlace();
         if (place.geometry) {
-         map.panTo(place.geometry.location);
-         map.setZoom(10);
+        map.panTo(place.geometry.location);
+        map.setZoom(15);
           search();
         } else {
           document.getElementById('autocomplete').placeholder = 'Enter a city';
@@ -267,4 +267,4 @@
         }
       }
     
-     
+      
