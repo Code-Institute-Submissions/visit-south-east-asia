@@ -91,16 +91,41 @@ From line 153, column 1; to line 153, column 6
 * CSS
 * Javascript
 
+## TOOLS 
+*e-mailJS 
+Balsamiq 3 mockups
+Google Maps API 
+Github and Gitpod 
 
+## CREDITS:
+
+## Navbar
+Bootstrap grid. 
+
+## Map and search boxes
+Code adapted from Stack Overflow, Google Maps API and W3schools 
+
+## Social Media Icons 
+adapted from font awsome.
+
+## Footer 
+Bootstrap grid used.
 
 ## INSPIRATION
 
 * Code Institute Student examples
 
 
-## CREDITS
+
+
+
 
 
 ### NOTE: 
 This is the second repository created. The branch of the original was not allowing me to maintain version control.
 The original repository is: https://github.com/andershup/Visit-South-East-Asia-Milestone-project-two 
+
+
+## disclaimer:
+
+This website is for aducational purposes only
