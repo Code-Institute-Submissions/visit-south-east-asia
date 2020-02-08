@@ -11,7 +11,11 @@ body,html {
 
 
 
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+    .map-search{ 
+    height: 10vh;
+    }
+}
 
 
 @media (min-width: 768px) { ... }
@@ -47,17 +51,25 @@ p {
     margin:0;
 }
 
+.main-title-row {
+    
+    background-color: #495057c7;
+    -webkit-box-shadow: 0px 54px 0px -32px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 54px 0px -32px rgba(0,0,0,0.75);
+box-shadow: 0px 54px 0px -32px rgba(0,0,0,0.75);
 
+}
 
+.visit, .asia {
+    color: #fff;
+    text-transform: uppercase;
+}
 
 
 .south-east {
     color: indianred;
 }
 
-.map-search {
-    height: 10vh;
-}
 
 
 

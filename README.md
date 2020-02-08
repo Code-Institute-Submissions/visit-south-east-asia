@@ -39,9 +39,12 @@ It is meant to provide a platform where information about hotels in 
 
 
 
-## EPLOYMENT
+## DEPLOYMENT
 
 ## TESTING
+
+### Google Developer Tools. used to test the responsiveness of the website. Issues with Bootstrap grid easily identified and amended. The console was used to correct Javascript and loading errors."
+Changes to HTML and CSS were tested "on the fly".
 
 Issue with the follwing function: 
 function onPlaceChanged() {
@@ -55,8 +58,32 @@ function onPlaceChanged() {
         }
       }
 The map is not panning to the place.geometry.location.
+### VALIDATOR W3 used
 
- 
+the following issues were found and amended HTML:
+
+
+Warning: The type attribute is unnecessary for JavaScript resources.
+
+From line 10, column 5; to line 10, column 106
+
+ript>↩    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">↩	</sc
+
+Warning: The type attribute is unnecessary for JavaScript resources.
+
+From line 12, column 2; to line 12, column 32
+
+/script>↩	<script type="text/javascript">↩		
+
+Error: Stray end tag div.
+
+From line 153, column 1; to line 153, column 6
+
+>↩↩</div>↩</div>↩↩<div
+
+ ### responsinator used to view how site looks on different formats.
+### ESPREMA SYNTAX VALIDATOR for js script validation
+
 
 ## TECHNOLOGIES USED
 
