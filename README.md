@@ -41,9 +41,53 @@ It is meant to provide a platform where information about hotels in 
 
 ## DEPLOYMENT
 
-## TESTING
+This project was developed using Cloud9 and Gitpod. In both casess all work was committed to Githup.
+It was deployed to Github Pages as follows:
 
-### Google Developer Tools. used to test the responsiveness of the website. Issues with Bootstrap grid easily identified and amended. The console was used to correct Javascript and loading errors."
+
+ 1. Log into Github
+ 2. Select **andershup/Visit-South-East-Asia-Second-repo**
+ 3. Select **settings** from the menu items.
+ 4. Scroll down to the **Github Pages**.
+ 5. Under **Source** click the dropdownmenu labelled **none** and select **Master Branch**
+ 6. On selecting Master Branch the page is now automatically refreshed and the website is now deployed.
+
+
+### How to run this project locally
+​
+To clone this project from GitHub:
+1. At the top of this repository, click "Clone or download".
+2. In the Clone with HTTPs section, copy the clone URL for the repository.
+3. In your local IDE open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/andershup/Visit-South-East-Asia-Second-repo
+```
+6. Press Enter. Your local clone will be created.
+
+
+All deployment tested on the following:
+
+Hardware:
+
+* Desktop PC
+* Macbook Air
+* Iphone XS
+* Samsung S10
+* Huawei tablet
+
+
+Software:
+
+* Google Chrome
+* Microsoft Edge
+* Apple Safari
+
+## TESTING:
+
+### Google Developer Tools:
+Used to test the responsiveness of the website. Issues with Bootstrap grid identified and amended. The console was used to correct Javascript and loading errors."
 Changes to HTML and CSS were tested "on the fly".
 
 Issue with the follwing function: 
@@ -58,7 +102,9 @@ function onPlaceChanged() {
         }
       }
 The map is not panning to the place.geometry.location.
-### VALIDATOR W3 used
+
+
+### VALIDATOR W3:
 
 the following issues were found and amended HTML:
 
@@ -67,19 +113,21 @@ Warning: The type attribute is unnecessary for JavaScript resources.
 
 From line 10, column 5; to line 10, column 106
 
-ript>↩    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">↩	</sc
+ript>↩    
+
+script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">↩	/sc
 
 Warning: The type attribute is unnecessary for JavaScript resources.
 
 From line 12, column 2; to line 12, column 32
 
-/script>↩	<script type="text/javascript">↩		
+/script>↩	script type="text/javascript">↩		
 
 Error: Stray end tag div.
 
 From line 153, column 1; to line 153, column 6
 
->↩↩</div>↩</div>↩↩<div
+>↩↩/div>↩/div>↩↩div
 
  ### responsinator used to view how site looks on different formats.
 ### ESPREMA SYNTAX VALIDATOR for js script validation
@@ -92,15 +140,14 @@ From line 153, column 1; to line 153, column 6
 * Javascript
 
 ## TOOLS 
-*e-mailJS 
-Balsamiq 3 mockups
-Google Maps API 
-Github and Gitpod 
+* e-mailJS 
+* Balsamiq 3 mockups
+* Google Maps API 
+* Github and Gitpod 
 
 ## CREDITS:
 
-## Navbar
-Bootstrap grid. 
+
 
 ## Map and search boxes
 Code adapted from Stack Overflow, Google Maps API and W3schools 
@@ -108,8 +155,7 @@ Code adapted from Stack Overflow, Google Maps API and W3schools
 ## Social Media Icons 
 adapted from font awsome.
 
-## Footer 
-Bootstrap grid used.
+
 
 ## INSPIRATION
 
@@ -123,7 +169,7 @@ Bootstrap grid used.
 
 ### NOTE: 
 This is the second repository created. The branch of the original was not allowing me to maintain version control.
-The original repository is: https://github.com/andershup/Visit-South-East-Asia-Milestone-project-two 
+The original repository is [HERE](https://github.com/andershup/Visit-South-East-Asia-Milestone-project-two)
 
 
 ## disclaimer:
