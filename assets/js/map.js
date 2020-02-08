@@ -63,8 +63,8 @@
           zoom: 4,
           center: {lat: 11.621900, lng: 107.071500},
           mapTypeControl: true,
-          panControl: true,
-          zoomControl: true,
+          panControl: false,
+          zoomControl: false,
           streetViewControl: true
         });
 

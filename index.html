@@ -118,7 +118,7 @@
 
 <div class="row">
 <div class="col-12 reset-button text-center">
-<button  class="btn btn-secondary btn-sm" onclick="clearMarkers(); clearResults(); document.getElementById('autocomplete').value = '' ; document.getElementById('country').value='all'">Reset Map</button> 
+<button  class="btn btn-secondary btn-sm" onclick="initMap();clearMarkers(); clearResults(); document.getElementById('autocomplete').value = '' ; document.getElementById('country').value='all'">Reset Map</button> 
 </div>
 </div>
 
@@ -136,7 +136,7 @@
 					<input type="text" name="name" class="form-control form-control-sm" id="fullname" placeholder="Name" required/>
 					<input type="text" name="emailaddress" class="form-control form-control-sm" id="emailaddress" placeholder="Email" required/>
 					<textarea rows="3" name="projectsummary" class="form-control form-control-sm" id="projectsummary" placeholder="How can we help?" required></textarea>
-					<button type="submit" class="btn btn-secondary btn-sm center-block">Submit Request</button>
+					<button type="submit" class="btn btn-secondary btn-sm center-block submit-button">Submit Request</button>
 				</form>
 			</div>
             <div class="col-2 col-sm-3S">

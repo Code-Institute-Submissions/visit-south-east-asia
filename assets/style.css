@@ -23,12 +23,7 @@ body,html {
     background-size: cover; 
 }
 
-@media (min-width: 768px) {
-    .footer {
-        position:absolute;
-        bottom:0;
-    }
-}
+
 
 
  }
@@ -46,22 +41,20 @@ body,html {
 
 .row,  .container-fluid {
     overflow-x: hidden;
-    
     padding:0;
+    
+    
 }
 
 
-p {
-    margin:0;
-}
+
 
 .main-title-row {
-    
+    margin-bottom:30px;
     background-color: #495057c7;
-    -webkit-box-shadow: 0px 54px 0px -32px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 54px 0px -32px rgba(0,0,0,0.75);
-box-shadow: 0px 54px 0px -32px rgba(0,0,0,0.75);
-
+-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.19);
+-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.19);
+box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.19);
 }
 
 .visit, .asia {
@@ -76,7 +69,9 @@ box-shadow: 0px 54px 0px -32px rgba(0,0,0,0.75);
 
 .map-search {
     height: 5vh;
+    opacity: 0.8;
 }
+
 
 
 .map-container {
@@ -138,13 +133,13 @@ overflow-y: hidden;
       }
       #findhotels {
         font-size: 14px;
-        padding-right: 15px;
+        padding-right: 10px;
       }
       #locationField {
         -webkit-box-flex: 1 1 190px;
         -ms-flex: 1 1 190px;
         flex: 1 1 190px;
-        margin: 0 8px;
+        
       }
       #controls {
         -webkit-box-flex: 1 1 140px;
@@ -186,7 +181,10 @@ overflow-y: hidden;
         text-align: right;
       }
     
-/* end of code adapted from gogle maps */
+.reset-button {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
 
 .form-container {
     
@@ -194,9 +192,15 @@ overflow-y: hidden;
  
 }
 
+.form-container:hover {
+    opacity: 0.8;
+}
+
 .contact-us-text {
     color: white;
 }
+
+
 
 
 
