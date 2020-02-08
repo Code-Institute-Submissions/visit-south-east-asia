@@ -42,7 +42,7 @@
         },
         'sg': {
           center: {lat: 1.366079, lng: 103.796655},
-          zoom: 7
+          zoom: 9
         },
         'th': {
           center: {lat: 15.957531, lng: 100.865050},
@@ -50,7 +50,7 @@
         },
         'vn': {
           center: {lat: 17.872043, lng: 105.985417},
-          zoom: 4
+          zoom: 5
         },
        
        
@@ -265,6 +265,14 @@
         } else {
           document.getElementById('iw-website-row').style.display = 'none';
         }
+      }
+
+      function buttonReset(){
+          initMap();
+          clearMarkers(); 
+          clearResults(); 
+          document.getElementById('autocomplete').value = '' ; 
+          document.getElementById('country').value='all'
       }
     
       

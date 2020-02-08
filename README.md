@@ -80,6 +80,7 @@ Hardware:
 
 Software:
 
+* Responsinator
 * Google Chrome
 * Microsoft Edge
 * Apple Safari
