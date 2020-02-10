@@ -41,7 +41,7 @@ It is meant to provide a platform where information about hotels in 
 
 ## DEPLOYMENT
 
-This project was developed using Cloud9 and Gitpod. In both casess all work was committed to Githup.
+This project was developed using Github/Gitpod. In both casess all work was committed to Githup.
 It was deployed to Github Pages as follows:
 
 
@@ -60,8 +60,9 @@ To clone this project from GitHub:
 2. In the Clone with HTTPs section, copy the clone URL for the repository.
 3. In your local IDE open Git Bash.
 4. Change the current working directory to the location where you want the cloned directory to be made.
-5. Type ```git clone```, and then paste the URL you copied in Step 3.
+5. Type git clone and then paste the URL you copied in Step 3.
 ```console
+
 git clone https://github.com/andershup/Visit-South-East-Asia-Second-repo
 ```
 6. Press Enter. Your local clone will be created.
@@ -87,51 +88,8 @@ Software:
 
 ## TESTING:
 
-### Google Developer Tools:
-Used to test the responsiveness of the website. Issues with Bootstrap grid identified and amended. The console was used to correct Javascript and loading errors."
-Changes to HTML and CSS were tested "on the fly".
+For testing file click [here](testing.md)
 
-Issue with the follwing function: 
-function onPlaceChanged() {
-        var place = autocomplete.getPlace();
-        if (place.geometry) {
-          map.panTo(place.geometry.location);
-          map.setZoom(8);
-          search();
-        } else {
-          document.getElementById('autocomplete').placeholder = 'Enter a city';
-        }
-      }
-The map is not panning to the place.geometry.location.
-
-
-### VALIDATOR W3:
-
-the following issues were found and amended HTML:
-
-
-Warning: The type attribute is unnecessary for JavaScript resources.
-
-From line 10, column 5; to line 10, column 106
-
-ript>↩    
-
-script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">↩	/sc
-
-Warning: The type attribute is unnecessary for JavaScript resources.
-
-From line 12, column 2; to line 12, column 32
-
-/script>↩	script type="text/javascript">↩		
-
-Error: Stray end tag div.
-
-From line 153, column 1; to line 153, column 6
-
->↩↩/div>↩/div>↩↩div
-
- ### responsinator used to view how site looks on different formats.
-### ESPREMA SYNTAX VALIDATOR for js script validation
 
 
 ## TECHNOLOGIES USED
@@ -148,7 +106,7 @@ From line 153, column 1; to line 153, column 6
 
 ## CREDITS:
 
-
+Thanks for the support and advice from my mentor [Simen Daehlin](https://www.github.com/Eventyret)
 
 ## Map and search boxes
 Code adapted from Stack Overflow, Google Maps API and W3schools 
@@ -157,15 +115,9 @@ Code adapted from Stack Overflow, Google Maps API and W3schools
 adapted from font awsome.
 
 
-
 ## INSPIRATION
 
 * Code Institute Student examples
-
-
-
-
-
 
 
 ### NOTE: 

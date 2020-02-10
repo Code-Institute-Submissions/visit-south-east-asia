@@ -117,9 +117,9 @@ asia
 </div>
 
 <div class="row">
-<div class="col-12 reset-button text-center">
-<button  class="btn btn-warning btn-sm" onclick="search()">Search area</button> 
-<button  class="btn btn-secondary btn-sm" onclick="buttonReset()">Reset Map</button> 
+<div class="col-12 buttons text-center">
+<button  id="search-button" class="btn btn-warning btn-sm" onclick="search()">Search area</button> 
+<button  id="reset-button" class="btn btn-secondary btn-sm" onclick="buttonReset()">Reset Map</button> 
 
 </div>
 </div>
@@ -172,11 +172,12 @@ asia
 </div>
 
 
+ 
 
-   <!--  <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+<!--<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
     </script> -->
-
-   
+ 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer_compiled.js" integrity="sha256-eOXHHkYbq+SyQdCB77WF6zxVYz2BcBjdXHeNZyiwvk4=" crossorigin="anonymous"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB1bMzOmLDngtBkiRKBYXpQSTVHIcXLLM&libraries=places&callback=initMap"></script>
 
 <!--footer-->

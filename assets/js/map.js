@@ -128,6 +128,10 @@
                 animation: google.maps.Animation.DROP,
                 icon: markerIcon
               });
+                var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
+            
               // If the user clicks a hotel marker, show the details of that hotel
               // in an info window.
               markers[i].placeResult = results[i];

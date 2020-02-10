@@ -5,6 +5,13 @@ body,html {
    
     margin: 0;
 }
+.body-container {
+background: url("images/beach-image-resized.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
 
 
 .visit, .asia {
@@ -19,6 +26,11 @@ font-size: 20px;
 .south-east {
    font-size: 20px; 
     color: indianred;
+}
+
+.buttons {
+      padding-top:5px;
+    padding-bottom: 5px;
 }
 
 
@@ -46,14 +58,18 @@ font-size: 50px;
     
 }
 
-.reset-button {
-    padding-top:20px;
+.buttons {
+      padding-top:20px;
     padding-bottom:20px;
 }
+
+
 
 .social-media {
     padding-top: 60px;
 }
+
+
 
  }
 
@@ -63,6 +79,18 @@ font-size: 50px;
 
 
 
+
+#reset-button {
+        -webkit-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+}
+
+#search-button {
+        -webkit-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+}
 
 
 
