@@ -5,6 +5,7 @@ Used to test the responsiveness of the website. Issues with Bootstrap grid ident
 Changes to HTML and CSS were tested "on the fly".
 
 Rather than have a top image with functions below I changed it to a background image. This was to make better use of space and improve the overall look of the site.
+The idea of having three alternating images was dropped to simplify the design.
 This allowed the mobile format to be refuced to one page for improved easy of use and removing the need for a menu option.
 This results field was removed from mobile format as it was deemed unnessary and took up too much space.
 A "search Area" button was instead next to the "reset" button (for all viewports) in order to improve the ability of the user to easily perform multiple searches.
@@ -34,13 +35,15 @@ Error: Stray end tag div.
 
 From line 153, column 1; to line 153, column 6
 
->↩↩/div>↩/div>↩↩div
+↩↩/div>↩/div>↩↩div
 
  ### responsinator used to view how site looks on different formats.
-All formats were working except the footer seems to float when a mobile device is held sideways.
+All formats were working except footer floating when in landscape view. I created a wrapper div with a min height of 100%. Still not working. 
 
 
-### ESPREMA SYNTAX VALIDATOR for js script validation
+### ESPREMA SYNTAX VALIDATOR
+used for js script validation.
+
 Code was syntactically valid 
 
 ### Manual testing:

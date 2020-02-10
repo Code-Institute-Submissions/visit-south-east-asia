@@ -39,6 +39,7 @@ It is meant to provide a platform where information about hotels in 
 
 ## WIREFRAMES:
 
+To see wireframes follow this [link](https://github.com/andershup/visit-south-east-asia-second-repo/ "wireframes")
 
 
 ## DEPLOYMENT:
@@ -116,14 +117,16 @@ Code adapted from Stack Overflow, Google Maps API and W3schools
 ## Social Media Icons 
 adapted from font awsome.
 
+## media:
+Image from [pexels](pexels.com)
 
 ## INSPIRATION
 
 * Code Institute Student examples
 
 
-### NOTE: 
-This is the second repository created. The branch of the original was not allowing me to maintain version control.
+### PLEASE NOTE: 
+This is the second repository created. The branch of the original was not allowing me to maintain version control. I was unable to re-attach the head to the master branch.
 The original repository is [HERE](https://github.com/andershup/Visit-South-East-Asia-Milestone-project-two)
 
 

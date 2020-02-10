@@ -1,11 +1,5 @@
-// This example uses the autocomplete feature of the Google Places API.
-// It allows the user to find all hotels in a given place, within a given
-// country. It then displays markers for all the hotels returned,
-// with on-click details for each hotel.
 
-// This example requires the Places library. Include the libraries=places
-// parameter when you first load the API. For example:
-// <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+// define var. Allocate country ISO IDs, location and zoom. Define search to restrict to selected country. 
 
 var map, places, infoWindow;
 var markers = [];
@@ -84,6 +78,8 @@ var countries = {
 
 };
 
+// initialise the google map function
+
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 4,
@@ -102,9 +98,9 @@ function initMap() {
 		content: document.getElementById('info-content')
 	});
 
+//autocomplete function
 
-	// Create the autocomplete object and associate it with the UI input control.
-	// Restrict the search to the default country, and to place type "cities".
+
 	autocomplete = new google.maps.places.Autocomplete(
 		/** @type {!HTMLInputElement} */
 		(
@@ -116,12 +112,13 @@ function initMap() {
 
 	autocomplete.addListener('place_changed', onPlaceChanged);
 
-	// Add a DOM event listener to react when the user selects a country.
+    //DOM event listener
+    
 	document.getElementById('country').addEventListener(
 		'change', setAutocompleteCountry);
 }
 
-// When the user selects a city, get the place details for the city and
+
 // zoom the map in on the city.
 function onPlaceChanged() {
 	var place = autocomplete.getPlace();
@@ -275,9 +272,8 @@ function buildIWContent(place) {
 		document.getElementById('iw-phone-row').style.display = 'none';
 	}
 
-	// Assign a five-star rating to the hotel, using a black star ('&#10029;')
-	// to indicate the rating the hotel has earned, and a white star ('&#10025;')
-	// for the rating points not achieved.
+     // assigning ratings to hotels
+     
 	if (place.rating) {
 		var ratingHtml = '';
 		for (var i = 0; i < 5; i++) {
@@ -293,8 +289,8 @@ function buildIWContent(place) {
 		document.getElementById('iw-rating-row').style.display = 'none';
 	}
 
-	// The regexp isolates the first part of the URL (domain plus subdomain)
-	// to give a short URL for displaying in the info window.
+    // assigning URLs
+    
 	if (place.website) {
 		var fullUrl = place.website;
 		var website = hostnameRegexp.exec(place.website);
@@ -308,6 +304,8 @@ function buildIWContent(place) {
 		document.getElementById('iw-website-row').style.display = 'none';
 	}
 }
+
+// functions to be initialised by the map-reset html 
 
 function buttonReset() {
 	initMap();
