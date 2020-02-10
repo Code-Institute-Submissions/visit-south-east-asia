@@ -4,10 +4,22 @@ body,html {
     height: 100%;
    
     margin: 0;
-  
-
 }
 
+
+.visit, .asia {
+font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    
+    
+}
+
+
+.south-east {
+   font-size: 20px; 
+    color: indianred;
+}
 
 
 @media (min-width: 576px) { ... }
@@ -21,10 +33,23 @@ body,html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
+    }
+.south-east {
+   font-size: 50px; 
+    color: indianred;
+}
+.visit, .asia {
+font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    
+    
 }
 
-
-
+.reset-button {
+    padding-top:20px;
+    padding-bottom:20px;
+}
 
  }
 
@@ -48,27 +73,18 @@ body,html {
 
 
 
-
 .main-title-row {
-    margin-bottom:30px;
+
     background-color: #495057c7;
 -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.19);
 -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.19);
 box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.19);
 }
 
-.visit, .asia {
-    color: #fff;
-    text-transform: uppercase;
-}
 
-
-.south-east {
-    color: indianred;
-}
 
 .map-search {
-    height: 5vh;
+    height: 7vh;
     opacity: 0.8;
 }
 
@@ -85,7 +101,8 @@ opacity: 0.8;
 width:100%;
 padding: 0;
 cursor: pointer;
-overflow-y: hidden;
+overflow-x: hidden;
+position: fixed;
 
 }
 
@@ -182,8 +199,8 @@ overflow-y: hidden;
       }
     
 .reset-button {
-    margin-top: 20px;
-    margin-bottom: 20px
+    margin-top: 5px;
+    margin-bottom: 5px
 }
 
 .form-container {
@@ -237,7 +254,8 @@ footer {
 
 
       background-color: gray;
- 
+ position: absolute;
+ bottom: 0 ;
       width: 100%;
 
 }
