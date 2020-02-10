@@ -1,303 +1,265 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower%7CSource+Code+Pro:400,700&display=swap');
-
-body,html {
-    height: 100%;
-   
-    margin: 0;
+body,
+html {
+	height: 100%;
+	margin: 0;
 }
+
+.wrapper-container {
+    min-height: 100%;
+}
+
 .body-container {
-background: url("images/beach-image-resized.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
+	background: url("images/beach-image-resized.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-
-.visit, .asia {
-font-size: 20px;
-    color: #fff;
-    text-transform: uppercase;
-    
-    
+.main-title-row {
+	background-color: #495057c7;
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.19);
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.19);
 }
 
+.visit,
+.asia {
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
 
 .south-east {
-   font-size: 20px; 
-    color: indianred;
+	font-size: 20px;
+	color: indianred;
 }
 
 .buttons {
-      padding-top:5px;
-    padding-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+@media (min-width: 576px) {
+	...
 }
 
 
-@media (min-width: 576px) { ... }
+/* Styling for tablets, 768px and up)*/
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
-    .body-container {
-   
-    background: url("images/beach-1236581_1920.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    }
-.south-east {
-   font-size: 50px; 
-    color: indianred;
-}
-.visit, .asia {
-font-size: 50px;
-    color: #fff;
-    text-transform: uppercase;
-    
-    
-}
-
-.buttons {
-      padding-top:20px;
-    padding-bottom:20px;
-}
-
-
-
-.social-media {
-    padding-top: 60px;
+@media (min-width: 768px) {
+	.body-container {
+		background: url("images/beach-1236581_1920.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.south-east {
+		font-size: 50px;
+		color: indianred;
+	}
+	.visit,
+	.asia {
+		font-size: 50px;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.map-search {
+		padding-top: 150px;
+	}
+	.buttons {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.social-media {
+		padding-top: 30px;
+	}
 }
 
 
-
- }
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
-
-
-
-
+/*end styling for tablets and above*/
 
 #reset-button {
-        -webkit-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 2px 3px 6px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 3px 6px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 3px 6px -1px rgba(0, 0, 0, 0.75);
 }
 
 #search-button {
-        -webkit-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
-box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 2px 3px 6px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 3px 6px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 3px 6px -1px rgba(0, 0, 0, 0.75);
 }
 
-
-
-
-
-.row,  .container-fluid {
-    overflow-x: hidden;
-    padding:0;
-    
-    
+.container-fluid {
+	overflow-x: hidden;
+	padding: 0;
 }
-
-
-
-.main-title-row {
-
-    background-color: #495057c7;
--webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.19);
--moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.19);
-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.19);
-}
-
-
 
 .map-search {
-    height: 7vh;
-    opacity: 0.8;
+	height: 7vh;
+	opacity: 0.8;
 }
 
-
-
 .map-container {
-    height: 30vh;
-  
+	height: 30vh;
 }
 
 #map {
-height: 30vh;
-opacity: 0.8;
-width:100%;
-padding: 0;
-cursor: pointer;
-overflow-x: hidden;
-position: fixed;
-
+	height: 30vh;
+	opacity: 0.8;
+	width: 100%;
+	padding: 0;
+	cursor: pointer;
+	overflow-y: hidden;
+	overflow:unset;
 }
 
+table {
+	font-size: 12px;
+}
 
+.hotel-search {
+	padding-left: 30px;
+	padding-right: 30px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 1;
+}
 
+.listing-block {
+	background-color: white;
+	opacity: 0.5;
+}
 
-    
-    
-      table {
-        font-size: 12px;
-      }
-      .hotel-search {
-          padding-left: 30px;
-          padding-right: 30px;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        background: #fff;
-        
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        left: 0;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        z-index: 1;
-      }
-     
-     .listing-block {
-         background-color: white;
-         opacity: 0.5;
-     }
-      
-       #listing {
-       
-        width: 100%;
-        height: auto;
-        overflow: auto;
-      
-        top: 0px;
-        cursor: pointer;
-       overflow-x: hidden; 
-       overflow-y: hidden;
-      }
-      #findhotels {
-        font-size: 14px;
-        padding-right: 10px;
-      }
-      #locationField {
-        -webkit-box-flex: 1 1 190px;
-        -ms-flex: 1 1 190px;
-        flex: 1 1 190px;
-        
-      }
-      #controls {
-        -webkit-box-flex: 1 1 140px;
-        -ms-flex: 1 1 140px;
-        flex: 1 1 140px;
-        padding-right: 15px;
-      }
-      #autocomplete {
-        width: 100%;
-      }
-      #country {
-        width: 100%;
-      }
-      .placeIcon {
-        width: 20px;
-        height: 34px;
-        margin: 4px;
-      }
-      .hotelIcon {
-        width: 24px;
-        height: 24px;
-      }
-      #resultsTable {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      #rating {
-        font-size: 13px;
-        font-family: Arial Unicode MS;
-      }
-      .iw_table_row {
-        height: 18px;
-      }
-      .iw_attribute_name {
-        font-weight: bold;
-        text-align: right;
-      }
-      .iw_table_icon {
-        text-align: right;
-      }
-    
+#listing {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	top: 0px;
+	cursor: pointer;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#findhotels {
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+#locationField {
+	-webkit-box-flex: 1 1 190px;
+	-ms-flex: 1 1 190px;
+	flex: 1 1 190px;
+}
+
+#controls {
+	-webkit-box-flex: 1 1 140px;
+	-ms-flex: 1 1 140px;
+	flex: 1 1 140px;
+	padding-right: 15px;
+}
+
+#autocomplete {
+	width: 100%;
+}
+
+#country {
+	width: 100%;
+}
+
+.placeIcon {
+	width: 20px;
+	height: 34px;
+	margin: 4px;
+}
+
+.hotelIcon {
+	width: 24px;
+	height: 24px;
+}
+
+#resultsTable {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#rating {
+	font-size: 13px;
+	font-family: Arial Unicode MS;
+}
+
+.iw_table_row {
+	height: 18px;
+}
+
+.iw_attribute_name {
+	font-weight: bold;
+	text-align: right;
+}
+
+.iw_table_icon {
+	text-align: right;
+}
+
 .reset-button {
-    margin-top: 5px;
-    margin-bottom: 5px
+	margin-top: 5px;
+	margin-bottom: 5px
 }
 
 .form-container {
-    
-      opacity: 0.7;
- 
+	opacity: 0.7;
 }
 
 .form-container:hover {
-    opacity: 0.8;
+	opacity: 0.8;
 }
 
 .contact-us-text {
-    color: white;
+	color: white;
 }
-
-
-
-
 
 .social-media {
-  display: inline-block;
-  text-align: center; 
- 
-  
+	display: inline-block;
+	text-align: center;
 }
 
-
 .fa-instagram {
-color: #ff3203;
+	color: #ff3203;
 }
 
 .fa-twitter {
-
-    color: blue;
-
+	color: blue;
 }
 
-.fa-facebook { 
-    color: blue;
-
+.fa-facebook {
+	color: blue;
 }
 
 .fa-youtube {
-    color:red;
-
+	color: red;
 }
 
 footer {
-      
-
-
-      background-color: gray;
- position: absolute;
- bottom: 0 ;
-      width: 100%;
-
+	background-color: gray;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 .created-by {
-    padding-left: 15px;
-margin:0;
-float: left; 
-
+	padding-left: 15px;
+	margin: 0;
+	float: left;
 }
-
-
-

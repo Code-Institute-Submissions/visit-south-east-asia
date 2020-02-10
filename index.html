@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<div class="wrapper-container">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,38 +9,38 @@
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
     <script src="https://kit.fontawesome.com/93b5844036.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
-	</script>
-	<script>
-		(function(){
-      emailjs.init("user_6NVc0p3jIEhAuHZGUjbw5");
-   })();
-  
-	</script>
+    </script>
+    <script>
+        (function() {
+            emailjs.init("user_6NVc0p3jIEhAuHZGUjbw5");
+        })();
+    </script>
     <title>Visit Bali | Find all hotels in all regions</title>
 </head>
+
 <body class="container-fluid body-container">
-<!--Title container Callout container-->
-  <div class="container-fluid title-container">
-<div class="row main-title-row text-center">
-<div class="col-12 col-sm-4 visit">
-visit
-</div>
-<div class="col-12 col-sm-4 south-east">
-South East
-</div>
-<div class="col-12 col-sm-4 asia">
-asia
-</div>
+    <!--Title container Callout container-->
+    <div class="container-fluid title-container">
+        <div class="row main-title-row text-center">
+            <div class="col-12 col-sm-4 visit">
+                visit
+            </div>
+            <div class="col-12 col-sm-4 south-east">
+                South East
+            </div>
+            <div class="col-12 col-sm-4 asia">
+                asia
+            </div>
 
-</div>
-</div> 
-<!-- Search area-->
-<div class="row map-search">
-<div class="d-none d-sm-inline-block col-sm-1"></div>
-<div class="col-12 col-sm-10">
-<div class="hotel-search">
+        </div>
+    </div>
+    <!-- Search area-->
+    <div class="row map-search">
+        <div class="d-none d-sm-inline-block col-sm-1"></div>
+        <div class="col-12 col-sm-10">
+            <div class="hotel-search">
 
-      <span id="controls">Country:
+                <span id="controls">Country:
         <select id="country">
           <option value="all" selected>All</option>
           <option value="kh">Cambodia</option>
@@ -51,150 +52,140 @@ asia
           <option value="sg">Singapore</option>
           <option value="th">Thailand</option>
           <option value="vn">Vietnam</option>
-       
-         
-        
+
         </select>
       </span>
-       <span id="findhotels">
+                <span id="findhotels">
         Find hotels in:
       </span>
 
-      <span id="locationField">
+                <span id="locationField">
         <input id="autocomplete" placeholder="Enter a city" type="text" />
       </span>
-    </div>
-</div>
-<div class="d-none d-sm-inline-block col-sm-1"></div>
-</div>
-
-<!--Map container-->
-<div class="container-fluid map-container">
-<div class="row">
-<div class="d-none d-sm-inline-block col-sm-1">
-
-</div>
-<div id="map" class="col-12 col-sm-5"></div>
-<div class="col-12 col-sm-5 listing-block">
-
-<div id="listing" class="d-block">
-      <table id="resultsTable">
-        <tbody id="results"></tbody>
-      </table>
+            </div>
+        </div>
+        <div class="d-none d-sm-inline-block col-sm-1"></div>
     </div>
 
-<div style="display: none">
-      <div id="info-content">
-        <table>
-          <tr id="iw-url-row" class="iw_table_row">
-            <td id="iw-icon" class="iw_table_icon"></td>
-            <td id="iw-url"></td>
-          </tr>
-          <tr id="iw-address-row" class="iw_table_row">
-            <td class="iw_attribute_name">Address:</td>
-            <td id="iw-address"></td>
-          </tr>
-          <tr id="iw-phone-row" class="iw_table_row">
-            <td class="iw_attribute_name">Telephone:</td>
-            <td id="iw-phone"></td>
-          </tr>
-          <tr id="iw-rating-row" class="iw_table_row">
-            <td class="iw_attribute_name">Rating:</td>
-            <td id="iw-rating"></td>
-          </tr>
-          <tr id="iw-website-row" class="iw_table_row">
-            <td class="iw_attribute_name">Website:</td>
-            <td id="iw-website"></td>
-          </tr>
-        </table>
-      </div>
+    <!--Map container-->
+    <div class="container-fluid map-container">
+        <div class="row">
+            <div class="d-none d-sm-inline-block col-sm-1">
+
+            </div>
+            <div id="map" class="col-12 col-sm-5"></div>
+            <div class="col-12 col-sm-5 listing-block">
+
+                <div id="listing" class="d-block">
+                    <table id="resultsTable">
+                        <tbody id="results"></tbody>
+                    </table>
+                </div>
+
+                <div style="display: none">
+                    <div id="info-content">
+                        <table>
+                            <tr id="iw-url-row" class="iw_table_row">
+                                <td id="iw-icon" class="iw_table_icon"></td>
+                                <td id="iw-url"></td>
+                            </tr>
+                            <tr id="iw-address-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Address:</td>
+                                <td id="iw-address"></td>
+                            </tr>
+                            <tr id="iw-phone-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Telephone:</td>
+                                <td id="iw-phone"></td>
+                            </tr>
+                            <tr id="iw-rating-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Rating:</td>
+                                <td id="iw-rating"></td>
+                            </tr>
+                            <tr id="iw-website-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Website:</td>
+                                <td id="iw-website"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm1"></div>
+
+        </div>
     </div>
 
-</div>
-<div class="col-sm1"></div>
+    <div class="row">
+        <div class="col-12 buttons text-center">
+            <button id="search-button" class="btn btn-warning btn-sm" onclick="search()">Search area</button>
+            <button id="reset-button" class="btn btn-secondary btn-sm" onclick="buttonReset()">Reset Map</button>
 
-</div>
-</div>
+        </div>
+    </div>
 
-<div class="row">
-<div class="col-12 buttons text-center">
-<button  id="search-button" class="btn btn-warning btn-sm" onclick="search()">Search area</button> 
-<button  id="reset-button" class="btn btn-secondary btn-sm" onclick="buttonReset()">Reset Map</button> 
+    <!--Form container-->
 
-</div>
-</div>
+    <div class="container-fluid form-container">
 
-<!--Form container-->
-
-<div class="container-fluid form-container">
-
-<div class="row">
-<div class="col-12 text-center contact-us-text">Contact us if you want further details:</div>
-</div>
-<div class="row">
-<div class="col-2 col-sm-3"></div>
-	<div id="form-box" class="center-form col-8 col-sm-6">
-				<form onsubmit="return sendMail(this);">
-					<input type="text" name="name" class="form-control form-control-sm" id="fullname" placeholder="Name" required/>
-					<input type="text" name="emailaddress" class="form-control form-control-sm" id="emailaddress" placeholder="Email" required/>
-					<textarea rows="3" name="howcanwehelp" class="form-control form-control-sm" id="howcanwehelp" placeholder="How can we help?" required></textarea>
-					<button type="submit" class="btn btn-secondary btn-sm center-block submit-button">Submit Request</button>
-				</form>
-			</div>
+        <div class="row">
+            <div class="col-12 text-center contact-us-text">Contact us if you want further details:</div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-sm-3"></div>
+            <div id="form-box" class="center-form col-8 col-sm-6">
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control form-control-sm" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control form-control-sm" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="3" name="howcanwehelp" class="form-control form-control-sm" id="howcanwehelp" placeholder="How can we help?" required></textarea>
+                    <button type="submit" class="btn btn-secondary btn-sm center-block submit-button">Submit Request</button>
+                </form>
+            </div>
             <div class="col-2 col-sm-3S">
-          
+
             </div>
 
+        </div>
 
+    </div>
 
- 
-
-</div>
-
-</div>
-
-
-<div class="row ">
-<div class="col-12 social-media">
-<span class="instagram">
+    <div class="row ">
+        <div class="col-12 social-media">
+            <span class="instagram">
 <a href="#" class="fab fa-instagram fa-2x mx-3"></a>
 </span>
-<span class="twitter">
+            <span class="twitter">
 <a href="#" class="fab fa-twitter fa-2x mx-3"></a>
 </span>
-<span class="facebook">
+            <span class="facebook">
 <a href="#" class="fab fa-facebook fa-2x mx-3"></a>
 </span>
-<span class="youtube">
+            <span class="youtube">
 <a href="#" class="fab fa-youtube fa-2x mx-3"></a>
 </span>
-</div>
-</div>
+        </div>
+    </div>
 
-
- 
-
-<!--<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+    <!--<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
     </script> -->
- 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer_compiled.js" integrity="sha256-eOXHHkYbq+SyQdCB77WF6zxVYz2BcBjdXHeNZyiwvk4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer_compiled.js" integrity="sha256-eOXHHkYbq+SyQdCB77WF6zxVYz2BcBjdXHeNZyiwvk4=" crossorigin="anonymous"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB1bMzOmLDngtBkiRKBYXpQSTVHIcXLLM&libraries=places&callback=initMap"></script>
 
-<!--footer-->
-<footer>
-<div class="row">
-<div class="col-12">
-<span class="created-by">
+    <!--footer-->
+    <footer>
+        <div class="row">
+            <div class="col-12">
+                <span class="created-by">
 &copy;Anders Olesen
 </span>
 
-</div>
-</div>
-</footer>
+            </div>
+        </div>
+    </footer>
 
-<script src="assets/js/sendEmail.js"></script>
-<script src="assets/js/map.js"></script>
-  
+    <script src="assets/js/sendEmail.js"></script>
+    <script src="assets/js/map.js"></script>
+
 </body>
+</div>
 </html>
-

@@ -41,6 +41,7 @@ All formats were working except the footer seems to float when a mobile device i
 
 
 ### ESPREMA SYNTAX VALIDATOR for js script validation
+Code was syntactically valid 
 
 ### Manual testing:
 All countries were tested for correct pan and zoom. Multiple cities were searched for in each country.
