@@ -9,7 +9,7 @@ It is meant to provide a platform where information about hotels in 
 
 ![bali-boats](https://i.pinimg.com/originals/be/4f/95/be4f95d00fe550eb9048260a72620feb.jpg)
 
-## UX
+## UX:
 
 * Build a website that will be emmidiately approachable for the user. 
 * The singular aim of the site should be instantly clear to the user. 
@@ -20,7 +20,7 @@ It is meant to provide a platform where information about hotels in 
 * An easy way to contact the owner will be provided.
 
 
-## UI
+## UI:
 
 * Mobile first approach to design. 
 * No navigation links should be necessary. The reason being that all functions of the site should be easily accesable without it.
@@ -32,14 +32,16 @@ It is meant to provide a platform where information about hotels in 
 * Email notification of any request will be provided to owner.
 * Links to all company social media accounts. 
 
-## USER STORY
+## USER STORY:
 
 * I am someone who is considering visiting Bali and want an easy way to search for hotels without having to sign up to any travel sites.
 * I want to get an idea of what quality/price of hotles in bali are like.
 
+## WIREFRAMES:
 
 
-## DEPLOYMENT
+
+## DEPLOYMENT:
 
 This project was developed using Github/Gitpod. In both casess all work was committed to Githup.
 It was deployed to Github Pages as follows:
@@ -127,4 +129,4 @@ The original repository is [HERE](https://github.com/andershup/Visit-South-East-
 
 ## disclaimer:
 
-This website is for aducational purposes only
+This website is for aducational purposes only.

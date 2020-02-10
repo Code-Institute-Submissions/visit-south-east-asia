@@ -9,9 +9,7 @@ This allowed the mobile format to be refuced to one page for improved easy of us
 This results field was removed from mobile format as it was deemed unnessary and took up too much space.
 A "search Area" button was instead next to the "reset" button (for all viewports) in order to improve the ability of the user to easily perform multiple searches.
 
-
-
-
+wireframes had not been uploaded to the current repository. This was amended.
 
 ### VALIDATOR W3:
 
@@ -39,6 +37,7 @@ From line 153, column 1; to line 153, column 6
 >↩↩/div>↩/div>↩↩div
 
  ### responsinator used to view how site looks on different formats.
+All formats were working except the footer seems to float when a mobile device is held sideways.
 
 
 ### ESPREMA SYNTAX VALIDATOR for js script validation
