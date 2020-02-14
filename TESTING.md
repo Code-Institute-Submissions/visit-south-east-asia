@@ -31,17 +31,19 @@ From line 153, column 1; to line 153, column 6
 
 Stray div tag deleted.
 
-## responsinator used to view how site looks on different formats
+## RESPONSINATOR
+
+ used to view how site looks on different formats [responsinator](https://responsinator.com)
 
 All formats were working except footer floating when in landscape view. I created a wrapper div with a min height of 100%. Still not working. 
 
 ## ESPREMA SYNTAX VALIDATOR
 
-used for js script validation.
+[esprema](https://esprima.org/demo/validate.html) used for js script validation.
 
 Code was syntactically valid 
 
-## markdownlint demo
+## MARKDOWNLINT 
 
 [markdonwlint](https://dlaa.me/markdownlint/)
 Used to test .md syntax.
