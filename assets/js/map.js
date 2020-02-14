@@ -161,9 +161,7 @@ function search() {
 					animation: google.maps.Animation.DROP,
 					icon: markerIcon
 				});
-				var markerCluster = new MarkerClusterer(map, markers, {
-					imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-				});
+				
 
 
 				// If the user clicks a hotel marker, show the details of that hotel
@@ -313,13 +311,13 @@ function buildIWContent(place) {
 	}
 }
 
-// functions to be initialised by the map-reset html 
+// functions to be initialised by the map-reset button html 
 
 function buttonReset() {
 	initMap();
 	clearMarkers();
 	clearResults();
 	document.getElementById('autocomplete').value = '';
-	document.getElementById('country').value = 'all'
+	document.getElementById('country').value = 'all';
 }
       
