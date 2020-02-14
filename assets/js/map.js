@@ -1,6 +1,6 @@
 // CODE ADAPTED FROM developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch
 
-// define var. Allocate country ISO IDs, location and zoom. Define search to restrict to selected country. 
+// Define var. Allocate country ISO IDs, location and zoom. Define search to restrict to selected country. 
 
 var map, places, infoWindow;
 var markers = [];
@@ -78,8 +78,11 @@ var countries = {
 
 
 };
-
-// initialise the google map function
+/* Initialise the google map function
+* Targeted to "map" element HTML
+* Initial zoom set for south east asia
+* Functions available to user set to true
+*/ 
 
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
@@ -88,19 +91,20 @@ function initMap() {
 			lat: 11.621900,
 			lng: 107.071500
 		},
-		mapTypeControl: true,
+		mapTypeControl: false,
 		panControl: false,
-		zoomControl: false,
+		zoomControl: true,
 		streetViewControl: true
 	});
-
+ 
+    //Info content created.
 
 	infoWindow = new google.maps.InfoWindow({
 		content: document.getElementById('info-content')
 	});
 
-//autocomplete function
 
+//Auto complete text box for city search with country restriction.
 
 	autocomplete = new google.maps.places.Autocomplete(
 		/** @type {!HTMLInputElement} */
@@ -111,16 +115,18 @@ function initMap() {
 		});
 	places = new google.maps.places.PlacesService(map);
 
+        //DOM event listener. Complete on user selection
+    
 	autocomplete.addListener('place_changed', onPlaceChanged);
 
-    //DOM event listener
-    
+
 	document.getElementById('country').addEventListener(
 		'change', setAutocompleteCountry);
 }
 
 
 // zoom the map in on the city.
+
 function onPlaceChanged() {
 	var place = autocomplete.getPlace();
 	if (place.geometry) {
@@ -133,6 +139,7 @@ function onPlaceChanged() {
 }
 
 // Search for hotels in the selected city, within the viewport of the map.
+
 function search() {
 	var search = {
 		bounds: map.getBounds(),

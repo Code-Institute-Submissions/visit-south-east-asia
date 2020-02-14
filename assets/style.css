@@ -10,6 +10,11 @@ html {
     position: relative;
 }
 
+.container-fluid {
+	overflow-x: hidden;
+	padding: 0;
+}
+
 .body-container {
 	background: url("images/beach-image-resized.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -17,6 +22,8 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+/* Main headline row with title */
 
 .main-title-row {
 	background-color: #495057c7;
@@ -40,10 +47,6 @@ html {
 .buttons {
 	padding-top: 5px;
 	padding-bottom: 5px;
-}
-
-@media (min-width: 576px) {
-	...
 }
 
 
@@ -74,6 +77,23 @@ html {
     overflow-y: scroll;
 }
 
+
+.listing-block {
+	background-color: white;
+	opacity: 0.4;
+}
+
+#listing {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	top: 0px;
+    font-weight: 900;
+	cursor: pointer;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
 	.buttons {
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -98,15 +118,12 @@ html {
 	box-shadow: 2px 3px 6px -1px rgba(0, 0, 0, 0.75);
 }
 
-.container-fluid {
-	overflow-x: hidden;
-	padding: 0;
-}
+
 
 .map-search {
 	height: 7vh;
-	opacity: 0.8;
     padding-top: 30px;
+ 
 }
 
 .map-container {
@@ -148,21 +165,6 @@ table {
 
 
 
-.listing-block {
-	background-color: white;
-	opacity: 0.5;
-}
-
-#listing {
-	width: 100%;
-	height: auto;
-	overflow: auto;
-	top: 0px;
-    font-weight: 900;
-	cursor: pointer;
-	overflow-x: hidden;
-	overflow-y: hidden;
-}
 
 #findhotels {
 	font-size: 14px;
