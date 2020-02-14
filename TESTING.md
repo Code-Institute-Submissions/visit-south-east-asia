@@ -46,6 +46,12 @@ used for js script validation.
 
 Code was syntactically valid 
 
+### markdownlint demo
+
+[markdonwlint](https://dlaa.me/markdownlint/)
+Used to test .md syntax.
+
+
 ### Manual testing:
 All countries were tested for correct pan and zoom. Multiple cities were searched for in each country.
 After each search scroll and zoom was used to test teh "search area" button to ensure it was returning the correct result.

@@ -1,4 +1,10 @@
-var companyName='Visit South East Asia';
+const companyName='Visit South East Asia';
+
+   
+        (function() {
+            emailjs.init("user_6NVc0p3jIEhAuHZGUjbw5");
+        })();
+    
 
 function sendMail(contactForm) {
     emailjs.send("gmail", "template_8PHabYFz", {

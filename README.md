@@ -5,11 +5,9 @@
 The objective of this project was to create a simple easy to use interactive website for planning a stay in South East Asia
 It is meant to provide a platform where information about hotels in different countries and regions of the area can be obtained.
 
-
-
 ![bali-boats](https://i.pinimg.com/originals/be/4f/95/be4f95d00fe550eb9048260a72620feb.jpg)
 
-## UX:
+## UX
 
 * Build a website that will be emmidiately approachable for the user. 
 * The singular aim of the site should be instantly clear to the user. 
@@ -19,8 +17,7 @@ It is meant to provide a platform where information about hotels in 
 * The user will also be able to zoom the map in/out in order to narrow/widen the search.
 * An easy way to contact the owner will be provided.
 
-
-## UI:
+## UI
 
 * Mobile first approach to design. 
 * No navigation links should be necessary. The reason being that all functions of the site should be easily accesable without it.
@@ -32,21 +29,19 @@ It is meant to provide a platform where information about hotels in 
 * Email notification of any request will be provided to owner.
 * Links to all company social media accounts. 
 
-## USER STORY:
+## USER STORY
 
 * I am someone who is considering visiting Bali and want an easy way to search for hotels without having to sign up to any travel sites.
 * I want to get an idea of what quality/price of hotles in bali are like.
 
-## WIREFRAMES:
+## WIREFRAMES
 
 To see wireframes follow this [link](https://github.com/andershup/visit-south-east-asia-second-repo/ "wireframes")
 
-
-## DEPLOYMENT:
+## DEPLOYMENT
 
 This project was developed using Github/Gitpod. In both casess all work was committed to Githup.
 It was deployed to Github Pages as follows:
-
 
  1. Log into Github
  2. Select **andershup/Visit-South-East-Asia-Second-repo**
@@ -55,25 +50,20 @@ It was deployed to Github Pages as follows:
  5. Under **Source** click the dropdownmenu labelled **none** and select **Master Branch**
  6. On selecting Master Branch the page is now automatically refreshed and the website is now deployed.
 
-
 ### How to run this project locally
 ​
 To clone this project from GitHub:
+
 1. At the top of this repository, click "Clone or download".
 2. In the Clone with HTTPs section, copy the clone URL for the repository.
 3. In your local IDE open Git Bash.
 4. Change the current working directory to the location where you want the cloned directory to be made.
-5. Type git clone and then paste the URL you copied in Step 3.
-```console
-
-git clone https://github.com/andershup/Visit-South-East-Asia-Second-repo
-```
+5. Type git clone and then paste the URL you copied in Step 3. git clone <https://github.com/andershup/Visit-South-East-Asia-Second-repo>
 6. Press Enter. Your local clone will be created.
-
 
 All deployment tested on the following:
 
-Hardware:
+Hardware
 
 * Desktop PC
 * Macbook Air
@@ -81,19 +71,16 @@ Hardware:
 * Samsung S10
 * Huawei tablet
 
-
-Software:
+Software
 
 * Responsinator
 * Google Chrome
 * Microsoft Edge
 * Apple Safari
 
-## TESTING:
+## TESTING
 
-For testing file click [here](testing.md)
-
-
+For testing file click [here](TESTING.md)
 
 ## TECHNOLOGIES USED
 
@@ -102,34 +89,39 @@ For testing file click [here](testing.md)
 * Javascript
 
 ## TOOLS 
+
 * e-mailJS 
 * Balsamiq 3 mockups
 * Google Maps API 
 * Github and Gitpod 
 
-## CREDITS:
+## CREDITS
 
 Thanks for the support and advice from my mentor [Simen Daehlin](https://www.github.com/Eventyret)
 
 ## Map and search boxes
+
 Code adapted from Stack Overflow, Google Maps API and W3schools 
 
 ## Social Media Icons 
+
 adapted from font awsome.
 
-## media:
+## media
+
 Image from [pexels](pexels.com)
 
 ## INSPIRATION
 
 * Code Institute Student examples
 
+### PLEASE NOTE 
 
-### PLEASE NOTE: 
 This is the second repository created. The branch of the original was not allowing me to maintain version control. I was unable to re-attach the head to the master branch.
 The original repository is [HERE](https://github.com/andershup/Visit-South-East-Asia-Milestone-project-two)
 
-
-## disclaimer:
+## disclaimer
 
 This website is for aducational purposes only.
+
+/

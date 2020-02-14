@@ -229,13 +229,7 @@ table {
 	margin-bottom: 5px
 }
 
-.form-container {
-	opacity: 0.7;
-}
 
-.form-container:hover {
-	opacity: 0.8;
-}
 
 #form-box {
     padding:0;
