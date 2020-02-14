@@ -1,3 +1,5 @@
+// Code adapted from Code Institute lesson on use of emailJS
+
 const companyName='Visit South East Asia';
 
    

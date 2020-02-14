@@ -36,7 +36,7 @@ It is meant to provide a platform where information about hotels in 
 
 ## WIREFRAMES
 
-To see wireframes follow this [link](https://github.com/andershup/visit-south-east-asia-second-repo/ "wireframes")
+To see wireframes follow this [link](https://github.com/andershup/visit-south-east-asia-second-repo/tree/master/wireframes)
 
 ## DEPLOYMENT
 
@@ -90,26 +90,34 @@ For testing file click [here](TESTING.md)
 
 ## TOOLS 
 
-* e-mailJS 
-* Balsamiq 3 mockups
-* Google Maps API 
-* Github and Gitpod 
+* [e-mailJS](https://www.emailjs.com/) 
+* [Balsamiq 3 mockups](https://Balsamiq.com/) 
+* [Google Maps API](https://cloud.google.com/maps-platform/) 
+* [Github and Gitpod](https://github.com/) 
 
 ## CREDITS
 
 Thanks for the support and advice from my mentor [Simen Daehlin](https://www.github.com/Eventyret)
 
-## Map and search boxes
+## CODE
 
-Code adapted from Stack Overflow, Google Maps API and W3schools 
+adapted from: 
 
-## Social Media Icons 
+[Stack Overflow](https://stackoverflow.com).
 
-adapted from font awsome.
+[Google Maps API](https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch)
 
-## media
+[W3schools](https://www.w3schools.com/) 
 
-Image from [pexels](pexels.com)
+[Code institute](https://codeinstitute.net) lessons on use of emailJS
+
+## SOCIAL MEDIA ICONS 
+
+adapted from [font awsome](https://fontawesome.com/)
+
+## IMAGES
+
+Image from [pexels](https://pexels.com)
 
 ## INSPIRATION
 

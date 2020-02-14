@@ -1,3 +1,4 @@
+// CODE ADAPTED FROM developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch
 
 // define var. Allocate country ISO IDs, location and zoom. Define search to restrict to selected country. 
 

@@ -1,6 +1,7 @@
-## TESTING:
+# TESTING
 
-### Google Developer Tools:
+## Google Developer Tools
+
 Used to test the responsiveness of the website. Issues with Bootstrap grid identified and amended. The console was used to correct Javascript and loading errors."
 Changes to HTML and CSS were tested "on the fly".
 
@@ -12,47 +13,45 @@ A "search Area" button was instead next to the "reset" button (for all viewports
 
 wireframes had not been uploaded to the current repository. This was amended.
 
-### VALIDATOR W3:
+## VALIDATOR W3
 
 the following issues were found and amended HTML:
 
+Warning: The type attribute is unnecessary for JavaScript resources.
+
+script type="text/javascript" src=https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js  
 
 Warning: The type attribute is unnecessary for JavaScript resources.
 
-From line 10, column 5; to line 10, column 106
-
-ript>↩    
-
-script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">↩	/sc
-
-Warning: The type attribute is unnecessary for JavaScript resources.
-
-From line 12, column 2; to line 12, column 32
-
-/script>↩	script type="text/javascript">↩		
+type="text/javascript" was deleted.
 
 Error: Stray end tag div.
 
 From line 153, column 1; to line 153, column 6
 
-↩↩/div>↩/div>↩↩div
+Stray div tag deleted.
 
- ### responsinator used to view how site looks on different formats.
+## responsinator used to view how site looks on different formats
+
 All formats were working except footer floating when in landscape view. I created a wrapper div with a min height of 100%. Still not working. 
 
+## ESPREMA SYNTAX VALIDATOR
 
-### ESPREMA SYNTAX VALIDATOR
 used for js script validation.
 
 Code was syntactically valid 
 
-### markdownlint demo
+## markdownlint demo
 
 [markdonwlint](https://dlaa.me/markdownlint/)
 Used to test .md syntax.
 
+All errors were amended except trailing spaces as none were found. Also line 53 was deemed to be sorrounded by empty lines.
 
-### Manual testing:
+## Manual testing
+
 All countries were tested for correct pan and zoom. Multiple cities were searched for in each country.
 After each search scroll and zoom was used to test teh "search area" button to ensure it was returning the correct result.
 After each search the "Reset Map" button was tested.
+
+/
